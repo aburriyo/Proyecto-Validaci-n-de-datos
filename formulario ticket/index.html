@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Ticket</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+    <br>
+    <h1 class="text-center">Formulario Prueba</h1>
+    <br>
+
+
+    <div class="container">
+    <form class="needs-validation mx-auto" novalidate>
+
+        <div class="mx-auto form-row" style="width: 100%;">
+          <div class="col-md-4 mb-3 mx-auto">
+            <label for="validationTooltip01">Nombre</label>
+            <input type="text" class="form-control" id="Nombre" placeholder="Primer Nombre" required>
+            <div class="valid-tooltip">
+              Todo bien!
+            </div>
+            <div class="invalid-tooltip">
+              Por favor ingrese su nombre.
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mx-auto">
+            <label for="validationTooltip02">Apellido</label>
+            <input type="text" class="form-control" id="Apellido" placeholder="Apellido" required>
+            <div class="valid-tooltip">
+              Todo bien!
+            </div>
+            <div class="invalid-tooltip">
+              Por favor ingrese su apellido.
+        </div>
+        </div>
+
+
+        <div class="Sexo">
+            <div class="col-md-4 mb-3 mx-auto">
+                <label for="validationTooltip03">Sexo</label>
+                <select class="form-control" id="Sexo" required>
+                    <option value="">Seleccione</option>
+                    <option value="M">Masculino</option>
+                    <option value="F">Femenino</option>
+                </select>
+                <div class="valid-tooltip" >
+                  Todo bien!
+                </div>
+                <div class="invalid-tooltip">
+                  Por favor seleccione su sexo.
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="col-md-4 mb-3 mx-auto">
+            <label for="inputZip">Número de teléfono</label>
+            <input type="text" class="form-control" id="Telefono" placeholder="+00 0 0000 0000">
+            <div class="valid-tooltip">
+                Todo bien!
+            </div>
+            <div class="invalid-tooltip">
+                Por favor ingrese su número de teléfono.
+            </div>
+            </div>
+        </div>
+
+        <div>
+            
+            <div class="col-md-4 mb-3 mx-auto">
+                <label for="exampleFormControlInput1">Dirección Email</label>
+                <input type="email" class="form-control" id="E-mail" placeholder="name@example.com">
+                <div class="valid-tooltip">
+                    Todo bien!
+                </div>
+                <div class="invalid-tooltip">
+                    Por favor ingrese su dirección de email.
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4 mb-3 mx-auto">
+                <label for="exampleFormControlInput1">Dirección</label>
+                <input type="text" class="form-control" id="Direccion" placeholder="Dirección">
+                <div class="valid-tooltip">
+                    Todo bien!
+                  </div>
+                  <div class="invalid-tooltip">
+                    Por favor ingrese su dirección.
+                    </div>
+            </div>
+
+            <div class="col-md-4 mb-3 mx-auto">
+                <label for="exampleFormControlInput1">Comuna</label>
+                    <input type="text" class="form-control" id="Comuna" placeholder="Comuna">
+                    <div class="valid-tooltip">
+                        Todo bien!
+                      </div>
+                        <div class="invalid-tooltip">
+                            Por favor ingrese su comuna.
+                        </div>
+            </div>
+            
+        </div>
+
+<!-- 
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Ticket a enviar</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+     -->
+     <div class="col-md-4 mb-3 mx-auto">
+        <input type="checkbox" class="custom-control-input" id="caja">
+        <label class="custom-control-label" for="Caja">Aceptar Términos y condiciones</label>
+        <div class="valid-tooltip">
+            Todo bien!
+        </div>
+        <div class="invalid-tooltip">
+            Por favor acepte los términos y condiciones.
+        </div>
+      </div>
+
+
+     
+        <br>
+        <div class="form-group text-center">
+            <div class="col-auto ">
+                <button type="submit" class="btn btn-primary mb-2 btn-lg" id="boton">Submit</button>
+            </div>
+        </div>
+
+    
+
+
+        
+    </form>      
+</div>
+<script src="script.js" ></script>
+
+</body>
+</html>
